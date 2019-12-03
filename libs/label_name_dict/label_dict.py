@@ -75,6 +75,11 @@ elif cfgs.DATASET_NAME == 'pascal':
         'train': 19,
         'tvmonitor': 20
     }
+elif cfgs.DATASET_NAME == 'TAL':
+    NAME_LABEL_MAP = {
+        'back_ground': 0,
+        'text': 1,
+    }
 else:
     assert 'please set label dict!'
 
